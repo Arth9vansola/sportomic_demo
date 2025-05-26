@@ -1,0 +1,119 @@
+.form-container {
+  background-color: #222831;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-heading {
+  margin-top: 0;
+  color: #00adb5;
+  font-size: 28px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.section-title {
+  color: #00adb5;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.form-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Added this class for better alignment of user details */
+.user-details {
+  margin-top: 25px;
+  align-items: start;
+}
+
+.user-details .form-group {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.user-details .form-input {
+  flex: 1;
+  height: 50px; /* Fixed height for both input and select */
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #eeeeee;
+  font-size: 16px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 14px 18px;
+  background-color: #393e46;
+  color: #eeeeee;
+  border: 1px solid #00adb5;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #00ffe7;
+  box-shadow: 0 0 12px rgba(0, 255, 231, 0.3);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.slots-section {
+  margin: 25px 0;
+  padding: 15px;
+  background-color: #2d333b;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-button {
+  margin-top: 25px;
+  padding: 15px 20px;
+  background-color: #00adb5;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.book-button:hover {
+  background-color: #00c3cc;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 173, 181, 0.4);
+}
+
+.book-button:active {
+  transform: translateY(1px);
+}
+
+.book-button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}

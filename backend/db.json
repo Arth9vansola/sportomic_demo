@@ -1,0 +1,9 @@
+{
+  "venues": ["Turf Arena", "GameZone", "PlayPalace"],
+  "slots": [
+    { "id": 1, "venue": "Turf Arena", "date": "2025-05-25", "time": "10:00 AM", "booked": false },
+    { "id": 2, "venue": "Turf Arena", "date": "2025-05-25", "time": "11:00 AM", "booked": false },
+    { "id": 3, "venue": "GameZone", "date": "2025-05-25", "time": "10:00 AM", "booked": false }
+  ],
+  "bookings": []
+}
