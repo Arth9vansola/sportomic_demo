@@ -4,7 +4,7 @@ import BookingForm from "./components/BookingForm";
 import SlotList from "./components/SlotList";
 import "./App.css";
 
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://sportomic-backend-task.onrender.com";
 
 const sports = ["Football", "Basketball", "Tennis", "Badminton"];
 
